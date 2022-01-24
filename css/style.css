@@ -1,0 +1,149 @@
+* {
+  /* removing the margin and padding by default */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #242526;
+}
+
+.row {
+  padding: 40px 0;
+  width: 90%;
+  /* The maximum width of the page */
+  max-width: 1140px;
+  /* To center the page */
+  margin: 0 auto;
+  position: relative;
+}
+
+.fixed-box {
+  position: sticky;
+  top: 40px;
+  text-align: right;
+}
+
+#logo-box {
+  margin-bottom: 22px;
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: 16px;
+}
+
+#logo-box > p {
+  line-height: 160%;
+  color: rgb(83, 83, 83);
+  font-size: 14px;
+}
+
+#headings {
+  color: #2b86ff;
+  font-size: 48px;
+  font-weight: 200;
+}
+
+.heading-secondary {
+  font-size: 42px;
+  font-weight: 200;
+}
+
+
+.heading-tertiary {
+  font-weight: 200;
+}
+
+.heading-fourth {
+  margin-bottom: 8px;
+}
+
+.mar-bottom {
+  margin-bottom: 16px;
+}
+
+.links:link,
+.links:visited {
+  color: #2b86ff;
+}
+
+#links-lesson a {
+  display: inline-block;
+  line-height: 160%;
+  font-size: 14px;
+}
+
+#links-lesson a:last-child {
+  margin-bottom: 16px;
+}
+
+#blue-div {
+  padding: 16px;
+  color: #fff;
+  width: 30%;
+  min-width: 320px;
+  background-color: #2b86ff;
+  margin: 8px 0;
+}
+
+#about-list {
+  margin-top: 24px;
+}
+
+#list-lesson::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+
+#ol-demo, #ul-demo {
+  float: left;
+  width: 30%;
+  padding: 32px;
+  background-color: #ffede1;
+}
+
+#ol-demo {
+  margin-right: 28px;
+}
+
+#ol-demo > ol, #ul-demo > ul{
+  margin-left: 32px;
+}
+
+#ol-demo > p, #ul-demo > p {
+  margin-bottom: 8px;
+}
+
+.list-item {
+  line-height: 160%;
+}
+
+#list-exo {
+  margin-top: 42px;
+}
+
+
+#list-exo ul {
+  margin-left: 32px;
+}
+
+.list-item-inside {
+  margin-left: 32px;
+}
+
+#image-lesson {
+  margin-top: 42px;
+}
+
+
+#image-lesson .simple-paragraph, img {
+  margin-bottom: 12px;
+}
+
+
