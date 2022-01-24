@@ -106,6 +106,7 @@ body {
   width: 30%;
   padding: 32px;
   background-color: #ffede1;
+  min-width: 200px;
 }
 
 #ol-demo {
